@@ -7,6 +7,6 @@ body{
     background-color: blueviolet;
 }
 #list{
-    border: 7px; rgba(236, 214, 174, 0.757));
+    border: 7px solid rgba(236, 214, 174, 0.757));
 
 }
