@@ -1,3 +1,12 @@
-{
-  
+body{
+    background-color: rgb(0, 0, 63);
+    color: white;
+}
+.uben{
+    color: rgb(210, 211, 239);
+    background-color: blueviolet;
+}
+#list{
+    border: 7px; rgba(236, 214, 174, 0.757));
+
 }
