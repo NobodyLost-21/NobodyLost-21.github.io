@@ -54,7 +54,11 @@ document.addEventListener('DOMContentLoaded', () => {
     updateLanguage(currentLang);
 
     const buttons = document.querySelectorAll('.lang-select-btn');
+
     buttons.forEach(button => {
         button.addEventListener('click', (event) => {
-            const selectedLang = event.target.getAttribute('data-lang');
+            const selectedLang = event.currentTarget.getAttribute('data-lang');
             updateLanguage(selectedLang);
+        });
+    });
+});
